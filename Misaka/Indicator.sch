@@ -1,0 +1,143 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED TX1
+U 1 1 5E760B72
+P 3350 1600
+F 0 "TX1" H 3343 1345 50  0000 C CNN
+F 1 "LED" H 3343 1436 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 1600 50  0001 C CNN
+F 3 "~" H 3350 1600 50  0001 C CNN
+	1    3350 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5E762E97
+P 2900 1600
+F 0 "R33" V 2693 1600 50  0000 C CNN
+F 1 "1k" V 2784 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 1600 50  0001 C CNN
+F 3 "~" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0204
+U 1 1 5E763A40
+P 2650 1500
+F 0 "#PWR0204" H 2650 1350 50  0001 C CNN
+F 1 "+5V" H 2665 1673 50  0000 C CNN
+F 2 "" H 2650 1500 50  0001 C CNN
+F 3 "" H 2650 1500 50  0001 C CNN
+	1    2650 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1500 2650 1600
+Wire Wire Line
+	2650 1600 2750 1600
+Wire Wire Line
+	3050 1600 3200 1600
+Text HLabel 3650 1600 2    50   Input ~ 0
+TXL
+Text HLabel 3650 2050 2    50   Input ~ 0
+RXL
+Text HLabel 2650 2500 0    50   Input ~ 0
+L
+Wire Wire Line
+	3500 1600 3650 1600
+$Comp
+L Device:R R34
+U 1 1 5E76D7C7
+P 2900 2050
+F 0 "R34" V 2693 2050 50  0000 C CNN
+F 1 "1k" V 2784 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2050 50  0001 C CNN
+F 3 "~" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0205
+U 1 1 5E76D7CD
+P 2650 1950
+F 0 "#PWR0205" H 2650 1800 50  0001 C CNN
+F 1 "+5V" H 2665 2123 50  0000 C CNN
+F 2 "" H 2650 1950 50  0001 C CNN
+F 3 "" H 2650 1950 50  0001 C CNN
+	1    2650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1950 2650 2050
+Wire Wire Line
+	2650 2050 2750 2050
+Wire Wire Line
+	3050 2050 3200 2050
+Wire Wire Line
+	3500 2050 3650 2050
+$Comp
+L Device:LED L1
+U 1 1 5E7704DA
+P 3350 2500
+F 0 "L1" H 3343 2245 50  0000 C CNN
+F 1 "LED" H 3343 2336 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 2500 50  0001 C CNN
+F 3 "~" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5E7704E0
+P 2900 2500
+F 0 "R35" V 2693 2500 50  0000 C CNN
+F 1 "1k" V 2784 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2500 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 2500 2750 2500
+Wire Wire Line
+	3050 2500 3200 2500
+Wire Wire Line
+	3500 2500 3650 2500
+$Comp
+L Device:LED RX1
+U 1 1 5E76D7C1
+P 3350 2050
+F 0 "RX1" H 3343 1795 50  0000 C CNN
+F 1 "LED" H 3343 1886 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 2050 50  0001 C CNN
+F 3 "~" H 3350 2050 50  0001 C CNN
+	1    3350 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 5E776EAB
+P 3650 2500
+F 0 "#PWR0206" H 3650 2250 50  0001 C CNN
+F 1 "GND" H 3655 2327 50  0000 C CNN
+F 2 "" H 3650 2500 50  0001 C CNN
+F 3 "" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J6
 U 1 1 5E619BEB
 P 1900 1200
-F 0 "J?" H 1928 1176 50  0000 L CNN
+F 0 "J6" H 1928 1176 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 1928 1085 50  0000 L CNN
-F 2 "" H 1900 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1900 1200 50  0001 C CNN
 F 3 "~" H 1900 1200 50  0001 C CNN
 	1    1900 1200
 	1    0    0    -1  
@@ -29,10 +29,10 @@ TX
 Text HLabel 1350 1300 0    50   Input ~ 0
 RX
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0169
 U 1 1 5E61CD00
 P 1600 1000
-F 0 "#PWR?" H 1600 850 50  0001 C CNN
+F 0 "#PWR0169" H 1600 850 50  0001 C CNN
 F 1 "+5V" H 1615 1173 50  0000 C CNN
 F 2 "" H 1600 1000 50  0001 C CNN
 F 3 "" H 1600 1000 50  0001 C CNN
@@ -40,10 +40,10 @@ F 3 "" H 1600 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0170
 U 1 1 5E61D823
 P 1500 1200
-F 0 "#PWR?" H 1500 950 50  0001 C CNN
+F 0 "#PWR0170" H 1500 950 50  0001 C CNN
 F 1 "GND" V 1505 1072 50  0000 R CNN
 F 2 "" H 1500 1200 50  0001 C CNN
 F 3 "" H 1500 1200 50  0001 C CNN
