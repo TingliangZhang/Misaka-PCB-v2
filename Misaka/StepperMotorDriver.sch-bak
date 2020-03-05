@@ -247,15 +247,15 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5E60B6B4
-P 6650 3100
+P 6750 3100
 AR Path="/5E5FA4ED/5E60B6B4" Ref="J2"  Part="1" 
 AR Path="/5E601D92/5E60B6B4" Ref="J3"  Part="1" 
 AR Path="/5E6050A3/5E60B6B4" Ref="J4"  Part="1" 
-F 0 "J2" H 6622 2982 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 6622 3073 50  0000 R CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" H 6650 3100 50  0001 C CNN
-F 3 "~" H 6650 3100 50  0001 C CNN
-	1    6650 3100
+F 0 "J2" H 6722 2982 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 6722 3073 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" H 6750 3100 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+	1    6750 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -438,13 +438,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 4200 5950 4200
 Wire Wire Line
-	6350 2900 6450 2900
+	6350 2900 6550 2900
 Wire Wire Line
-	6350 3000 6450 3000
-Wire Wire Line
-	6350 3100 6450 3100
-Wire Wire Line
-	6350 3200 6450 3200
+	6350 3000 6550 3000
 Wire Wire Line
 	6350 2800 6700 2800
 Wire Wire Line
@@ -617,4 +613,20 @@ Text Label 4450 2900 0    50   ~ 0
 MS2
 Text Label 4450 2750 0    50   ~ 0
 MS1
+Wire Wire Line
+	6350 3100 6450 3100
+Wire Wire Line
+	6450 3100 6450 3200
+Wire Wire Line
+	6450 3200 6550 3200
+Wire Wire Line
+	6350 3200 6400 3200
+Wire Wire Line
+	6400 3200 6400 3150
+Wire Wire Line
+	6400 3150 6500 3150
+Wire Wire Line
+	6500 3150 6500 3100
+Wire Wire Line
+	6500 3100 6550 3100
 $EndSCHEMATC

@@ -550,4 +550,6 @@ Text Label 6300 3150 0    50   ~ 0
 RX0
 Text Label 6300 3650 0    50   ~ 0
 D13
+Text Label 7800 1450 2    50   ~ 0
+TX1
 $EndSCHEMATC
