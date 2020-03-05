@@ -85,7 +85,7 @@ $EndComp
 Wire Wire Line
 	4300 7200 4300 7450
 Wire Wire Line
-	4300 1400 4300 1300
+	4300 1400 4300 1350
 Wire Wire Line
 	9750 3150 9500 3150
 Wire Wire Line
@@ -289,20 +289,21 @@ RX1
 Text Notes 8450 1000 2    50   ~ 0
 Connect with TX1/RX1
 $Sheet
-S 9800 550  1000 950 
+S 9750 550  1000 950 
 U 5E609346
 F0 "USB-UART" 50
 F1 "CH340.sch" 50
-F2 "TX" I L 9800 1150 50 
-F3 "RX" I L 9800 850 50 
+F2 "TX" O L 9750 750 50 
+F3 "RX" I L 9750 1250 50 
+F4 "RESET" O L 9750 1000 50 
 $EndSheet
 Wire Wire Line
-	9800 850  9500 850 
+	9750 750  9500 750 
 Wire Wire Line
-	9800 1150 9500 1150
-Text Label 9500 850  0    50   ~ 0
+	9750 1250 9500 1250
+Text Label 9500 750  0    50   ~ 0
 TX0
-Text Label 9500 1150 0    50   ~ 0
+Text Label 9500 1250 0    50   ~ 0
 RX0
 $Comp
 L dk_RF-Transceiver-Modules:XB24CZ7PIT-004 MOD1
@@ -328,4 +329,17 @@ Text Label 7350 1750 2    50   ~ 0
 TX1
 Text Label 8750 1750 0    50   ~ 0
 RX1
+Wire Wire Line
+	9750 1000 9500 1000
+Text Label 9500 1000 0    50   ~ 0
+RESET
+Text Label 3500 1700 2    50   ~ 0
+RESET
+Wire Wire Line
+	4300 1350 4400 1350
+Wire Wire Line
+	4400 1350 4400 1400
+Connection ~ 4300 1350
+Wire Wire Line
+	4300 1350 4300 1300
 $EndSCHEMATC
