@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D?
+U 1 1 5E62C39C
+P 2300 2000
+F 0 "D?" H 2300 1784 50  0000 C CNN
+F 1 "M7" H 2300 1875 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2300 2000 50  0001 C CNN
+F 3 "~" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 CP?
+U 1 1 5E62F0CC
+P 2600 2350
+F 0 "CP?" H 2715 2396 50  0000 L CNN
+F 1 "47uF" H 2715 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 2600 2350 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E6304AE
+P 3000 2350
+F 0 "C?" H 3115 2396 50  0000 L CNN
+F 1 "100nF" H 3115 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 2200 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E631504
+P 3500 2650
+F 0 "#PWR?" H 3500 2400 50  0001 C CNN
+F 1 "GND" H 3505 2477 50  0000 C CNN
+F 2 "" H 3500 2650 50  0001 C CNN
+F 3 "" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 CP?
+U 1 1 5E638171
+P 4150 2350
+F 0 "CP?" H 4265 2396 50  0000 L CNN
+F 1 "47uF" H 4265 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 4150 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E63945A
+P 2000 2000
+F 0 "#PWR?" H 2000 1850 50  0001 C CNN
+F 1 "+BATT" H 2015 2173 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E63B921
+P 4300 2000
+F 0 "#PWR?" H 4300 1850 50  0001 C CNN
+F 1 "+5V" H 4315 2173 50  0000 C CNN
+F 2 "" H 4300 2000 50  0001 C CNN
+F 3 "" H 4300 2000 50  0001 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2000 2150 2000
+Wire Wire Line
+	2450 2000 2600 2000
+Wire Wire Line
+	4150 2000 4150 2200
+Connection ~ 4150 2000
+Wire Wire Line
+	4150 2000 4300 2000
+Wire Wire Line
+	3500 2300 3500 2600
+Wire Wire Line
+	2600 2200 2600 2000
+Connection ~ 2600 2000
+Wire Wire Line
+	2600 2000 3000 2000
+Wire Wire Line
+	3000 2200 3000 2000
+Connection ~ 3000 2000
+Wire Wire Line
+	3000 2000 3200 2000
+Wire Wire Line
+	4150 2500 4150 2600
+Wire Wire Line
+	4150 2600 3500 2600
+Connection ~ 3500 2600
+Wire Wire Line
+	3500 2600 3500 2650
+Wire Wire Line
+	3000 2500 3000 2600
+Wire Wire Line
+	3000 2600 3500 2600
+Wire Wire Line
+	2600 2500 2600 2600
+Wire Wire Line
+	2600 2600 3000 2600
+Connection ~ 3000 2600
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5E644475
+P 4900 2100
+F 0 "U?" H 4900 2342 50  0000 C CNN
+F 1 "AMS1117-3.3" H 4900 2251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4900 2300 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5000 1850 50  0001 C CNN
+	1    4900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 5E646B9F
+P 3500 2000
+F 0 "U?" H 3500 2242 50  0000 C CNN
+F 1 "AMS1117-5.0" H 3500 2151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3500 2200 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3600 1750 50  0001 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2000 4150 2000
+$Comp
+L power:+5V #PWR?
+U 1 1 5E6497A2
+P 4500 2000
+F 0 "#PWR?" H 4500 1850 50  0001 C CNN
+F 1 "+5V" H 4515 2173 50  0000 C CNN
+F 2 "" H 4500 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E64AE3C
+P 5300 2000
+F 0 "#PWR?" H 5300 1850 50  0001 C CNN
+F 1 "+3.3V" H 5315 2173 50  0000 C CNN
+F 2 "" H 5300 2000 50  0001 C CNN
+F 3 "" H 5300 2000 50  0001 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E64B3E8
+P 4900 2450
+F 0 "#PWR?" H 4900 2200 50  0001 C CNN
+F 1 "GND" H 4905 2277 50  0000 C CNN
+F 2 "" H 4900 2450 50  0001 C CNN
+F 3 "" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2000 4500 2100
+Wire Wire Line
+	4500 2100 4600 2100
+Wire Wire Line
+	5200 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2000
+Wire Wire Line
+	4900 2400 4900 2450
+$Comp
+L Device:LED LED?
+U 1 1 5E64FDD4
+P 2750 3050
+F 0 "LED?" H 2743 2795 50  0000 C CNN
+F 1 "ON" H 2743 2886 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 3050 50  0001 C CNN
+F 3 "~" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E654EE5
+P 2250 3050
+F 0 "R?" V 2043 3050 50  0000 C CNN
+F 1 "1k" V 2134 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2180 3050 50  0001 C CNN
+F 3 "~" H 2250 3050 50  0001 C CNN
+	1    2250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E655D03
+P 2000 2950
+F 0 "#PWR?" H 2000 2800 50  0001 C CNN
+F 1 "+5V" H 2015 3123 50  0000 C CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6573BC
+P 3000 3150
+F 0 "#PWR?" H 3000 2900 50  0001 C CNN
+F 1 "GND" H 3005 2977 50  0000 C CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2950 2000 3050
+Wire Wire Line
+	2000 3050 2100 3050
+Wire Wire Line
+	2400 3050 2600 3050
+Wire Wire Line
+	2900 3050 3000 3050
+Wire Wire Line
+	3000 3050 3000 3150
+$EndSCHEMATC

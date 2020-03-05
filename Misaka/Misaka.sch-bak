@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -161,8 +161,6 @@ F 3 "~" H 10300 2500 50  0001 C CNN
 	1    10300 2550
 	0    1    1    0   
 $EndComp
-Text Label 10400 2550 0    50   ~ 0
-VM
 $Comp
 L power:GND #PWR0117
 U 1 1 5E622AF8
@@ -261,73 +259,64 @@ MS3
 $Comp
 L power:GND #PWR0127
 U 1 1 5E64EFCB
-P 7950 2750
-F 0 "#PWR0127" H 7950 2500 50  0001 C CNN
-F 1 "GND" H 7955 2577 50  0000 C CNN
-F 2 "" H 7950 2750 50  0001 C CNN
-F 3 "" H 7950 2750 50  0001 C CNN
-	1    7950 2750
+P 8400 2450
+F 0 "#PWR0127" H 8400 2200 50  0001 C CNN
+F 1 "GND" H 8405 2277 50  0000 C CNN
+F 2 "" H 8400 2450 50  0001 C CNN
+F 3 "" H 8400 2450 50  0001 C CNN
+	1    8400 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0142
 U 1 1 5E64FE9B
-P 8050 1300
-F 0 "#PWR0142" H 8050 1150 50  0001 C CNN
-F 1 "+3.3V" H 8065 1473 50  0000 C CNN
-F 2 "" H 8050 1300 50  0001 C CNN
-F 3 "" H 8050 1300 50  0001 C CNN
-	1    8050 1300
+P 8500 1000
+F 0 "#PWR0142" H 8500 850 50  0001 C CNN
+F 1 "+3.3V" H 8515 1173 50  0000 C CNN
+F 2 "" H 8500 1000 50  0001 C CNN
+F 3 "" H 8500 1000 50  0001 C CNN
+	1    8500 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 1300 8050 1550
+	8500 1000 8500 1250
 Text Label 5100 4700 0    50   ~ 0
 TX1
 Text Label 5100 4600 0    50   ~ 0
 RX1
-Text Notes 8450 1000 2    50   ~ 0
+Text Notes 8900 700  2    50   ~ 0
 Connect with TX1/RX1
-$Sheet
-S 9750 550  1000 950 
-U 5E609346
-F0 "USB-UART" 50
-F1 "CH340.sch" 50
-F2 "TX" I L 9750 1150 50 
-F3 "RX" I L 9750 850 50 
-F4 "RESET" I L 9750 1000 50 
-$EndSheet
 Wire Wire Line
-	9750 850  9500 850 
+	9750 750  9500 750 
 Wire Wire Line
-	9750 1150 9500 1150
-Text Label 9500 850  0    50   ~ 0
+	9750 1250 9500 1250
+Text Label 9500 750  0    50   ~ 0
 TX0
-Text Label 9500 1150 0    50   ~ 0
+Text Label 9500 1250 0    50   ~ 0
 RX0
 $Comp
 L dk_RF-Transceiver-Modules:XB24CZ7PIT-004 MOD1
 U 1 1 5E64862E
-P 8150 2350
-F 0 "MOD1" H 8050 3353 60  0000 C CNN
-F 1 "XB24CZ7PIT-004" H 8050 3247 60  0000 C CNN
-F 2 "digikey-footprints:XBEE_PRO-20_THT" H 8350 2550 60  0001 L CNN
-F 3 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 2650 60  0001 L CNN
-F 4 "602-1557-ND" H 8350 2750 60  0001 L CNN "Digi-Key_PN"
-F 5 "XB24CZ7PIT-004" H 8350 2850 60  0001 L CNN "MPN"
-F 6 "RF/IF and RFID" H 8350 2950 60  0001 L CNN "Category"
-F 7 "RF Transceiver Modules" H 8350 3050 60  0001 L CNN "Family"
-F 8 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 3150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/digi-international/XB24CZ7PIT-004/602-1557-ND/5322371" H 8350 3250 60  0001 L CNN "DK_Detail_Page"
-F 10 "RF TXRX MOD 802.15.4 TRACE ANT" H 8350 3350 60  0001 L CNN "Description"
-F 11 "Digi International" H 8350 3450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8350 3550 60  0001 L CNN "Status"
-	1    8150 2350
+P 8600 2050
+F 0 "MOD1" H 8500 3053 60  0000 C CNN
+F 1 "XB24CZ7PIT-004" H 8500 2947 60  0000 C CNN
+F 2 "digikey-footprints:XBEE_PRO-20_THT" H 8800 2250 60  0001 L CNN
+F 3 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8800 2350 60  0001 L CNN
+F 4 "602-1557-ND" H 8800 2450 60  0001 L CNN "Digi-Key_PN"
+F 5 "XB24CZ7PIT-004" H 8800 2550 60  0001 L CNN "MPN"
+F 6 "RF/IF and RFID" H 8800 2650 60  0001 L CNN "Category"
+F 7 "RF Transceiver Modules" H 8800 2750 60  0001 L CNN "Family"
+F 8 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8800 2850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/digi-international/XB24CZ7PIT-004/602-1557-ND/5322371" H 8800 2950 60  0001 L CNN "DK_Detail_Page"
+F 10 "RF TXRX MOD 802.15.4 TRACE ANT" H 8800 3050 60  0001 L CNN "Description"
+F 11 "Digi International" H 8800 3150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8800 3250 60  0001 L CNN "Status"
+	1    8600 2050
 	1    0    0    -1  
 $EndComp
-Text Label 7350 1750 2    50   ~ 0
+Text Label 7800 1450 2    50   ~ 0
 TX1
-Text Label 8750 1750 0    50   ~ 0
+Text Label 9200 1450 0    50   ~ 0
 RX1
 Wire Wire Line
 	9750 1000 9500 1000
@@ -342,4 +331,60 @@ Wire Wire Line
 Connection ~ 4300 1350
 Wire Wire Line
 	4300 1350 4300 1300
+$Sheet
+S 8000 5400 1000 1000
+U 5E6177DE
+F0 "PowerSupply" 50
+F1 "Power.sch" 50
+$EndSheet
+Text Label 3500 4400 2    50   ~ 0
+RX3
+Text Label 3500 4500 2    50   ~ 0
+TX3
+Text Label 3500 5300 2    50   ~ 0
+RX2
+Text Label 3500 5400 2    50   ~ 0
+TX2
+$Sheet
+S 8000 4150 1000 1000
+U 5E61980C
+F0 "JetsonNANO" 50
+F1 "JetsonInterface.sch" 50
+F2 "TX" O L 8000 4400 50 
+F3 "RX" I L 8000 4900 50 
+$EndSheet
+Wire Wire Line
+	8000 4400 7750 4400
+Wire Wire Line
+	8000 4900 7750 4900
+Text Label 7750 4400 0    50   ~ 0
+RX2
+Text Label 7750 4900 0    50   ~ 0
+TX2
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E62480E
+P 10700 2500
+F 0 "#PWR?" H 10700 2350 50  0001 C CNN
+F 1 "+BATT" H 10715 2673 50  0000 C CNN
+F 2 "" H 10700 2500 50  0001 C CNN
+F 3 "" H 10700 2500 50  0001 C CNN
+	1    10700 2500
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9750 550  1000 950 
+U 5E609346
+F0 "USB-UART" 50
+F1 "CH340.sch" 50
+F2 "TX" O L 9750 750 50 
+F3 "RX" I L 9750 1250 50 
+F4 "RESET" O L 9750 1000 50 
+$EndSheet
+Wire Wire Line
+	10400 2550 10700 2550
+Wire Wire Line
+	10700 2550 10700 2500
+Text Label 10500 2550 0    50   ~ 0
+VM
 $EndSCHEMATC

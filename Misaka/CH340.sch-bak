@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -316,9 +316,9 @@ Connection ~ 5200 3250
 Text HLabel 5500 2050 2    50   Output ~ 0
 RESET
 Wire Wire Line
-	4550 1850 5100 1850
+	4550 1850 4950 1850
 Wire Wire Line
-	4550 1950 5100 1950
+	4550 1950 4850 1950
 Wire Wire Line
 	5500 2050 5400 2050
 Wire Wire Line
@@ -346,4 +346,70 @@ Wire Wire Line
 	3350 2150 3750 2150
 Wire Wire Line
 	3350 2250 3750 2250
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E60C088
+P 5350 1450
+F 0 "J?" H 5378 1426 50  0000 L CNN
+F 1 "Conn_01x04_Female_UART" H 5378 1335 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5350 1450 50  0001 C CNN
+F 3 "~" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1850 4950 1650
+Wire Wire Line
+	4950 1650 5150 1650
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 5100 1850
+Wire Wire Line
+	4850 1950 4850 1550
+Wire Wire Line
+	4850 1550 5150 1550
+Connection ~ 4850 1950
+Wire Wire Line
+	4850 1950 5100 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5E6138D2
+P 4950 1450
+F 0 "#PWR?" H 4950 1200 50  0001 C CNN
+F 1 "GND" H 4955 1277 50  0000 C CNN
+F 2 "" H 4950 1450 50  0001 C CNN
+F 3 "" H 4950 1450 50  0001 C CNN
+	1    4950 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E614188
+P 5050 1250
+F 0 "#PWR?" H 5050 1100 50  0001 C CNN
+F 1 "+5V" H 5065 1423 50  0000 C CNN
+F 2 "" H 5050 1250 50  0001 C CNN
+F 3 "" H 5050 1250 50  0001 C CNN
+	1    5050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1450 5150 1450
+Wire Wire Line
+	5150 1350 5050 1350
+Wire Wire Line
+	5050 1350 5050 1250
+$Comp
+L power:+5V #PWR?
+U 1 1 5E64CBD9
+P 3550 1950
+F 0 "#PWR?" H 3550 1800 50  0001 C CNN
+F 1 "+5V" H 3565 2123 50  0000 C CNN
+F 2 "" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1950 3550 1950
 $EndSCHEMATC
