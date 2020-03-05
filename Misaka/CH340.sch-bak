@@ -1,0 +1,169 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:CH340G U?
+U 1 1 5E60AAA4
+P 4150 2250
+F 0 "U?" H 4150 1561 50  0000 C CNN
+F 1 "CH340C" H 4150 1470 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4200 1700 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 3800 3050 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E60E20E
+P 4150 1450
+F 0 "#PWR?" H 4150 1300 50  0001 C CNN
+F 1 "+5V" H 4165 1623 50  0000 C CNN
+F 2 "" H 4150 1450 50  0001 C CNN
+F 3 "" H 4150 1450 50  0001 C CNN
+	1    4150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E60FE8B
+P 4150 3100
+F 0 "#PWR?" H 4150 2850 50  0001 C CNN
+F 1 "GND" H 4155 2927 50  0000 C CNN
+F 2 "" H 4150 3100 50  0001 C CNN
+F 3 "" H 4150 3100 50  0001 C CNN
+	1    4150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1450 4150 1500
+Wire Wire Line
+	4150 2850 4150 3100
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5E611555
+P 3300 2150
+F 0 "J?" H 3357 2617 50  0000 C CNN
+F 1 "USB_B_Micro" H 3357 2526 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 3450 2100 50  0001 C CNN
+F 3 "~" H 3450 2100 50  0001 C CNN
+	1    3300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E616FDD
+P 3300 2650
+F 0 "#PWR?" H 3300 2400 50  0001 C CNN
+F 1 "GND" H 3305 2477 50  0000 C CNN
+F 2 "" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2550 3200 2600
+Wire Wire Line
+	3200 2600 3300 2600
+Wire Wire Line
+	3300 2600 3300 2650
+Wire Wire Line
+	3300 2550 3300 2600
+Connection ~ 3300 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5E618125
+P 3650 1900
+F 0 "#PWR?" H 3650 1750 50  0001 C CNN
+F 1 "+5V" H 3665 2073 50  0000 C CNN
+F 2 "" H 3650 1900 50  0001 C CNN
+F 3 "" H 3650 1900 50  0001 C CNN
+	1    3650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1900 3650 1950
+Wire Wire Line
+	3650 1950 3600 1950
+NoConn ~ 3600 2350
+Wire Wire Line
+	3600 2150 3750 2150
+Wire Wire Line
+	3600 2250 3750 2250
+$Comp
+L Device:C C?
+U 1 1 5E622295
+P 3850 1500
+F 0 "C?" V 3598 1500 50  0000 C CNN
+F 1 "C" V 3689 1500 50  0000 C CNN
+F 2 "Capacitors:0603" H 3888 1350 50  0001 C CNN
+F 3 "~" H 3850 1500 50  0001 C CNN
+	1    3850 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E625648
+P 4350 1500
+F 0 "C?" V 4098 1500 50  0000 C CNN
+F 1 "C" V 4189 1500 50  0000 C CNN
+F 2 "Capacitors:0603" H 4388 1350 50  0001 C CNN
+F 3 "~" H 4350 1500 50  0001 C CNN
+	1    4350 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 1650 4050 1500
+Wire Wire Line
+	4050 1500 4000 1500
+Wire Wire Line
+	4200 1500 4150 1500
+Connection ~ 4150 1500
+Wire Wire Line
+	4150 1500 4150 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5E6277ED
+P 3600 1500
+F 0 "#PWR?" H 3600 1250 50  0001 C CNN
+F 1 "GND" H 3605 1327 50  0000 C CNN
+F 2 "" H 3600 1500 50  0001 C CNN
+F 3 "" H 3600 1500 50  0001 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6288CC
+P 4600 1500
+F 0 "#PWR?" H 4600 1250 50  0001 C CNN
+F 1 "GND" H 4605 1327 50  0000 C CNN
+F 2 "" H 4600 1500 50  0001 C CNN
+F 3 "" H 4600 1500 50  0001 C CNN
+	1    4600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1500 3700 1500
+Wire Wire Line
+	4500 1500 4600 1500
+Text HLabel 4700 1850 2    50   Input ~ 0
+TX
+Text HLabel 4700 1950 2    50   Input ~ 0
+RX
+Wire Wire Line
+	4550 1850 4700 1850
+Wire Wire Line
+	4550 1950 4700 1950
+$EndSCHEMATC

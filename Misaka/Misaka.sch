@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -147,9 +147,9 @@ D51
 Text Label 5100 2900 0    50   ~ 0
 D50
 Text Label 5100 5300 0    50   ~ 0
-D1
+RX0
 Text Label 5100 5400 0    50   ~ 0
-D2
+TX0
 $Comp
 L Connector:Conn_Coaxial_Power J1
 U 1 1 5E620D8E
@@ -259,26 +259,6 @@ MS2
 Text Label 10800 2100 2    50   ~ 0
 MS3
 $Comp
-L dk_RF-Transceiver-Modules:XB24CZ7PIT-004 MOD1
-U 1 1 5E64862E
-P 8150 2350
-F 0 "MOD1" H 8050 3353 60  0000 C CNN
-F 1 "XB24CZ7PIT-004" H 8050 3247 60  0000 C CNN
-F 2 "digikey-footprints:XBEE_PRO-20_THT" H 8350 2550 60  0001 L CNN
-F 3 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 2650 60  0001 L CNN
-F 4 "602-1557-ND" H 8350 2750 60  0001 L CNN "Digi-Key_PN"
-F 5 "XB24CZ7PIT-004" H 8350 2850 60  0001 L CNN "MPN"
-F 6 "RF/IF and RFID" H 8350 2950 60  0001 L CNN "Category"
-F 7 "RF Transceiver Modules" H 8350 3050 60  0001 L CNN "Family"
-F 8 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 3150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/digi-international/XB24CZ7PIT-004/602-1557-ND/5322371" H 8350 3250 60  0001 L CNN "DK_Detail_Page"
-F 10 "RF TXRX MOD 802.15.4 TRACE ANT" H 8350 3350 60  0001 L CNN "Description"
-F 11 "Digi International" H 8350 3450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8350 3550 60  0001 L CNN "Status"
-	1    8150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0127
 U 1 1 5E64EFCB
 P 7950 2750
@@ -303,13 +283,49 @@ $EndComp
 Wire Wire Line
 	8050 1300 8050 1550
 Text Label 5100 4700 0    50   ~ 0
-D18
+TX1
 Text Label 5100 4600 0    50   ~ 0
-D19
-Text Label 8750 1750 0    50   ~ 0
-D19
-Text Label 7350 1750 2    50   ~ 0
-D18
+RX1
 Text Notes 8450 1000 2    50   ~ 0
 Connect with TX1/RX1
+$Sheet
+S 9800 550  1000 950 
+U 5E609346
+F0 "USB-UART" 50
+F1 "CH340.sch" 50
+F2 "TX" I L 9800 1150 50 
+F3 "RX" I L 9800 850 50 
+$EndSheet
+Wire Wire Line
+	9800 850  9500 850 
+Wire Wire Line
+	9800 1150 9500 1150
+Text Label 9500 850  0    50   ~ 0
+TX0
+Text Label 9500 1150 0    50   ~ 0
+RX0
+$Comp
+L dk_RF-Transceiver-Modules:XB24CZ7PIT-004 MOD1
+U 1 1 5E64862E
+P 8150 2350
+F 0 "MOD1" H 8050 3353 60  0000 C CNN
+F 1 "XB24CZ7PIT-004" H 8050 3247 60  0000 C CNN
+F 2 "digikey-footprints:XBEE_PRO-20_THT" H 8350 2550 60  0001 L CNN
+F 3 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 2650 60  0001 L CNN
+F 4 "602-1557-ND" H 8350 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "XB24CZ7PIT-004" H 8350 2850 60  0001 L CNN "MPN"
+F 6 "RF/IF and RFID" H 8350 2950 60  0001 L CNN "Category"
+F 7 "RF Transceiver Modules" H 8350 3050 60  0001 L CNN "Family"
+F 8 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" H 8350 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/digi-international/XB24CZ7PIT-004/602-1557-ND/5322371" H 8350 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "RF TXRX MOD 802.15.4 TRACE ANT" H 8350 3350 60  0001 L CNN "Description"
+F 11 "Digi International" H 8350 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8350 3550 60  0001 L CNN "Status"
+	1    8150 2350
+	1    0    0    -1  
+$EndComp
+Text Label 7350 1750 2    50   ~ 0
+TX1
+Text Label 8750 1750 0    50   ~ 0
+RX1
 $EndSCHEMATC
