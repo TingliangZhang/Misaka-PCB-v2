@@ -6,6 +6,18 @@ Using [KiCad EDA](https://kicad-pcb.org/)
 
 
 
+## Keyboard commands - hotkeys
+
+Many commands are accessible directly with the keyboard. Selection can be either upper or lower case. Most hot keys are shown in menus. Some hot keys that do not appear are:
+
+- `Delete`: deletes a footprint or a track. (*Available only if the Footprint mode or the Track mode is active*)
+- `V`: if the track tool is active switches working layer or place via, if a track is in progress.
+- `+` and `-`: select next or previous layer.
+- `?`: display the list of all hot keys.
+- `Space`: reset relative coordinates.
+
+
+
 ## Third Party Libraries
 
 In addition to the official KiCad libraries, there are other, third party sources for KiCad library packages.
