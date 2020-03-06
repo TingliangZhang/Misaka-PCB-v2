@@ -1,0 +1,30 @@
+Drill report for C:\Users\Joey\Desktop\Swarm2020\Misaka-PCB-v2\Misaka\Misaka.kicad_pcb
+Created on 06/03/2020 21:22:32
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Misaka-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (175 holes)
+    T2  0.35mm  0.014"  (2 holes)  (with 2 slots)
+    T3  0.44mm  0.017"  (5 holes)
+    T4  0.50mm  0.020"  (12 holes)
+    T5  0.70mm  0.028"  (28 holes)
+    T6  0.71mm  0.028"  (11 holes)
+    T7  0.80mm  0.031"  (8 holes)
+    T8  1.00mm  0.039"  (26 holes)
+    T9  1.90mm  0.075"  (2 holes)
+
+    Total plated holes count 269
+
+
+Drill file 'Misaka-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
