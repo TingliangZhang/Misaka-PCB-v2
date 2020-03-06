@@ -488,7 +488,7 @@ AR Path="/5E601D92/5E64ABEC" Ref="CP2"  Part="1"
 AR Path="/5E6050A3/5E64ABEC" Ref="CP3"  Part="1" 
 F 0 "CP1" V 5645 1500 50  0000 C CNN
 F 1 "100uF" V 5736 1500 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder" H 5938 1350 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 5938 1350 50  0001 C CNN
 F 3 "~" H 5900 1500 50  0001 C CNN
 	1    5900 1500
 	0    -1   -1   0   

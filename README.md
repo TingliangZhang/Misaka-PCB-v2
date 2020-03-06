@@ -6,6 +6,12 @@ Using [KiCad EDA](https://kicad-pcb.org/)
 
 
 
+## CSV File (BOM)
+
+需要将 ; 批量替换成 , 
+
+
+
 ## Keyboard commands - hotkeys
 
 Many commands are accessible directly with the keyboard. Selection can be either upper or lower case. Most hot keys are shown in menus. Some hot keys that do not appear are:

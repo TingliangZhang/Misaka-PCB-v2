@@ -611,7 +611,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-223-3_TabPin2 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E6217B2)
-    (at 190.22 81.53)
+    (at 135.57 41.93)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /5E6177DE/5E644475)
@@ -654,7 +654,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-223-3_TabPin2 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E62179C)
-    (at 200.27 76.98)
+    (at 145.62 37.38)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /5E6177DE/5E646B9F)
@@ -1456,7 +1456,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5E6215E8)
-    (at 56.905 58.23)
+    (at 44.705 63.78)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5E76060A/5E760B72)
@@ -1690,7 +1690,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5E621538)
-    (at 56.905 55.64)
+    (at 44.705 61.19)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5E76060A/5E76D7C1)
@@ -1728,7 +1728,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5E621525)
-    (at 61.25 58.19)
+    (at 49.05 63.74)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5E76060A/5E7704E0)
@@ -1764,7 +1764,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5E621514)
-    (at 65.64 55.6)
+    (at 53.44 61.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5E76060A/5E76D7C7)
@@ -1800,7 +1800,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5E621503)
-    (at 65.6 58.19)
+    (at 53.4 63.74)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5E76060A/5E762E97)
@@ -2016,7 +2016,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5E62149D)
-    (at 197.32 82.36)
+    (at 142.67 42.76)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5E6177DE/5E654EE5)
@@ -3066,7 +3066,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5E6212A1)
-    (at 187.515 86.95)
+    (at 132.865 47.35)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5E6177DE/5E64FDD4)
@@ -3104,7 +3104,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5E62128E)
-    (at 61.295 55.64)
+    (at 49.095 61.19)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5E76060A/5E7704DA)
@@ -3292,7 +3292,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5E621228)
-    (at 212.91 76.56)
+    (at 158.26 36.96)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5E61980C/5E619BEB)
@@ -3627,7 +3627,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5E621156)
-    (at 182.4 54.51)
+    (at 32.1 77.6 180)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /5E67F365)
@@ -3657,17 +3657,17 @@
     (fp_line (start 3.81 6.35) (end -1.27 6.35) (layer F.Fab) (width 0.1))
     (fp_line (start 3.81 -1.27) (end 3.81 6.35) (layer F.Fab) (width 0.1))
     (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
-    (pad 6 thru_hole oval (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 6 thru_hole oval (at 2.54 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 GND))
-    (pad 5 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 5 thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 18 /RESET))
-    (pad 4 thru_hole oval (at 2.54 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 4 thru_hole oval (at 2.54 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 30 /MOSI))
-    (pad 3 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 3 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 31 /SCK))
-    (pad 2 thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 2.54 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 16 +5V))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 32 /MISO))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4045,7 +4045,7 @@
   )
 
   (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5E621082)
-    (at 190.32 75.13)
+    (at 135.67 35.53)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (path /5E6177DE/5E62C39C)
@@ -4126,7 +4126,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_6.3x5.8 (layer F.Cu) (tedit 5BCA39D0) (tstamp 5E621057)
-    (at 180.07 76.93)
+    (at 125.42 37.33)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm")
     (tags "capacitor electrolytic")
     (path /5E6177DE/5E638171)
@@ -4185,7 +4185,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_6.3x5.8 (layer F.Cu) (tedit 5BCA39D0) (tstamp 5E62102F)
-    (at 180.07 85.08)
+    (at 125.42 45.48)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm")
     (tags "capacitor electrolytic")
     (path /5E6177DE/5E62F0CC)
@@ -4934,7 +4934,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5E620EBE)
-    (at 191.86 86.91)
+    (at 137.21 47.31)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5E6177DE/5E6304AE)
