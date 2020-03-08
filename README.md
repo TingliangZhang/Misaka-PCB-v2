@@ -4,6 +4,12 @@ Second Version of [TingliangZhang](https://github.com/TingliangZhang)/**[Misaka-
 
 Using [KiCad EDA](https://kicad-pcb.org/)
 
+插件安装等参考TUNA的帮助：
+
+https://mirrors.tuna.tsinghua.edu.cn/help/kicad/
+
+
+
 
 
 ## CSV File (BOM)
