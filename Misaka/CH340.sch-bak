@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2950 4650 3050
 $Comp
-L Switch:SW_Push S1
+L SparkFun-Switches:MOMENTARY-SWITCH-SPST-SMD-4.5MM S1
 U 1 1 5E63B4DB
 P 5850 2550
 F 0 "S1" H 5850 2860 45  0000 C CNN
