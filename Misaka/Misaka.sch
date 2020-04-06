@@ -292,8 +292,6 @@ F 12 "Active" H 8800 3250 60  0001 L CNN "Status"
 	1    8600 2050
 	1    0    0    -1  
 $EndComp
-Text Label 7850 2400 2    50   ~ 0
-TX1
 Wire Wire Line
 	6500 5900 6250 5900
 Text Label 6250 5900 0    50   ~ 0

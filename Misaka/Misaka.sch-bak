@@ -294,8 +294,6 @@ F 12 "Active" H 8800 3250 60  0001 L CNN "Status"
 $EndComp
 Text Label 7850 2400 2    50   ~ 0
 TX1
-Text Label 9200 1450 0    50   ~ 0
-RX1
 Wire Wire Line
 	6500 5900 6250 5900
 Text Label 6250 5900 0    50   ~ 0
@@ -339,19 +337,6 @@ Text Label 7750 4400 0    50   ~ 0
 RX2
 Text Label 7750 4900 0    50   ~ 0
 TX2
-$Comp
-L power:+BATT #PWR0152
-U 1 1 5E62480E
-P 10400 2500
-F 0 "#PWR0152" H 10400 2350 50  0001 C CNN
-F 1 "+BATT" H 10415 2673 50  0000 C CNN
-F 2 "" H 10400 2500 50  0001 C CNN
-F 3 "" H 10400 2500 50  0001 C CNN
-	1    10400 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 2550 10400 2500
 $Comp
 L SparkFun-Clocks:RESONATOR-16MHZSMD_3.2X1.3 Y1
 U 1 1 5E669079
@@ -526,32 +511,49 @@ F2 "TX" O L 6500 5650 50
 F3 "RX" I L 6500 6150 50 
 F4 "RESET" O L 6500 5900 50 
 $EndSheet
-Text Label 10200 2550 0    50   ~ 0
-VM
+Wire Wire Line
+	1700 2650 2100 2650
+Wire Wire Line
+	1400 2650 1300 2650
 $Comp
 L power:GND #PWR0117
 U 1 1 5E622AF8
-P 9600 2550
-F 0 "#PWR0117" H 9600 2300 50  0001 C CNN
-F 1 "GND" H 9605 2377 50  0000 C CNN
-F 2 "" H 9600 2550 50  0001 C CNN
-F 3 "" H 9600 2550 50  0001 C CNN
-	1    9600 2550
+P 1300 2650
+F 0 "#PWR0117" H 1300 2400 50  0001 C CNN
+F 1 "GND" H 1305 2477 50  0000 C CNN
+F 2 "" H 1300 2650 50  0001 C CNN
+F 3 "" H 1300 2650 50  0001 C CNN
+	1    1300 2650
 	1    0    0    -1  
 $EndComp
+Text Label 1900 2650 0    50   ~ 0
+VM
+Wire Wire Line
+	2100 2650 2100 2600
+$Comp
+L power:+BATT #PWR0152
+U 1 1 5E62480E
+P 2100 2600
+F 0 "#PWR0152" H 2100 2450 50  0001 C CNN
+F 1 "+BATT" H 2115 2773 50  0000 C CNN
+F 2 "" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	1    0    0    -1  
+$EndComp
+Text Label 9200 1450 0    50   ~ 0
+RX1
+Text Notes 1200 3400 0    50   ~ 0
+AMASS package and this symbol \npositive and negative mapping is opposite\nIt can be corrected by welding on the reverse side\nwhen soldering, or you can directly connect the positive \nelectrode of the symbol to GND for violent correction.
 $Comp
 L Device:Battery_Cell J1
 U 1 1 5E620D8E
-P 9800 2550
-F 0 "J1" V 9583 2500 50  0000 C CNN
-F 1 "Battery" V 9674 2500 50  0000 C CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 9800 2500 50  0001 C CNN
-F 3 "~" H 9800 2500 50  0001 C CNN
-	1    9800 2550
+P 1500 2650
+F 0 "J1" V 1283 2600 50  0000 C CNN
+F 1 "Battery" V 1374 2600 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" V 1150 3550 50  0000 C CNN
+F 3 "~" H 1500 2600 50  0001 C CNN
+	1    1500 2650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9700 2550 9600 2550
-Wire Wire Line
-	10000 2550 10400 2550
 $EndSCHEMATC
