@@ -2,7 +2,7 @@
 
 Second Version of [TingliangZhang](https://github.com/TingliangZhang)/**[Misaka-PCB](https://github.com/TingliangZhang/Misaka-PCB)**
 
-Using [KiCad EDA](https://kicad-pcb.org/)
+Using [KiCad EDA](https://kicad.org/)
 
 插件安装等参考TUNA的帮助：
 
